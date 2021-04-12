@@ -49,10 +49,8 @@ else()
     add_compile_options(-Wall -pedantic)
 endif()
 
-add_library(mylib src/MyLibrary.cpp 
-                  src/MyLibrary.hpp
-                  src/Exception.hpp)
-target_include_directories(mylib PUBLIC src)
+add_library(mylib src/MyLibrary.cpp)
+target_include_directories(mylib PUBLIC include)
 
 enable_testing()
 
