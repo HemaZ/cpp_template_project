@@ -34,3 +34,6 @@
 # Visual studio specific files
 .vs
 CMakeSettings.json
+
+# build folder
+build
